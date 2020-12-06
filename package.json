@@ -9,7 +9,9 @@
   },
   "author": "Garry",
   "license": "ISC",
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint-config-airbnb": "^18.2.1"
+  },
   "dependencies": {
     "classnames": "2.2.6",
     "connected-react-router": "6.8.0",

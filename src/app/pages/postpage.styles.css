@@ -1,0 +1,7 @@
+.postpage {
+  position: absolute;
+  top: 50px;
+  width: 50%;
+  min-width: 400px;
+  padding-top: 15px;
+}

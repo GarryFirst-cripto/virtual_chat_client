@@ -1,0 +1,10 @@
+# Dependency directories
+node_modules
+
+# IDE settings
+.vscode
+
+# production
+build
+
+package-lock.json

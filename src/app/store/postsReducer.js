@@ -1,7 +1,7 @@
 export const SET_POSTS_COLLECTION = 'SET_POSTS_COLLECTION';
 export const SET_POST_EDIT = 'SET_POSTS_TO_EDIT';
 
-export default (state = {}, action) => {
+const reducer = (state = {}, action) => {
   switch (action.type) {
     case SET_POSTS_COLLECTION:
       return {
@@ -17,3 +17,5 @@ export default (state = {}, action) => {
       return state;
   }
 };
+
+export default reducer;

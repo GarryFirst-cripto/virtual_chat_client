@@ -1,8 +1,10 @@
 const initialShow = { modalWnd: false };
 
-export default (state = initialShow, action) => {
+const reducer = (state = initialShow, action) => {
   switch (action.type) {
     default:
       return state;
   }
 };
+
+export default reducer;

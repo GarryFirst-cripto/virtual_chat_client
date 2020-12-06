@@ -5,7 +5,7 @@ export const SET_USER_LOGOUT = 'SET_USER_LOGOUT';
 export const SET_USER_EDIT = 'SET_USER_TO_EDIT';
 export const STATISTIC = 'SET_USER_STATISTIC';
 
-export default (state = {}, action) => {
+const reducer = (state = {}, action) => {
   switch (action.type) {
     case SET_USER_LIST:
       return {
@@ -43,3 +43,5 @@ export default (state = {}, action) => {
       return state;
   }
 };
+
+export default reducer;

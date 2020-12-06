@@ -84,7 +84,6 @@ export class ModalWindow extends React.Component {
 
   doHide(event) {
     this.caption = '';
-    this.state.showing = false;
     this.setState({ showing: false });
     if (this.callback) this.callback(event.currentTarget.innerText);
   }

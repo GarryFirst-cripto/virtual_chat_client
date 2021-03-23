@@ -3,4 +3,4 @@
 
 Client : https://virtual-chat-client.herokuapp.com
 
-Server : http://VirtualChatServer-env.eba-6nfgqbpb.us-east-2.elasticbeanstalk.com
+Server : https://virtual-chat-server.herokuapp.com
